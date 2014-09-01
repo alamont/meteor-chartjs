@@ -1,14 +1,10 @@
 
 # Chart.js for Meteor v0.0.6
 
-*Updated to use latest Chartjs 1.0.1-beta2 version*
-
-The minified JS file has been modified from the official version to fix issues with Meteor and the latest 1.0.1-beta2 changes.
+*Updated to use latest Chartjs 1.0.1-beta4 version*
 
 Fixes:
-1. Added Chart=this.Chart; at the end of the minified file to fix variable scoping issue (Meteor 0.6+).
-2. Included section of un-minified chartjs code to minified version to workaround issue 'Uncaught SyntaxError: Unexpected token =' when js is loaded in browser (tested in Chrome, Firefox, Safari). 
-  - If you find a better solution, please raise a pull request! 
+1. Made compatible with meteor 0.9.0
 
 # Example code of using Chart.js with Meteor
 
@@ -18,7 +14,6 @@ On the branch 'test' there is an example of how to use ChartJs with Meteor.
 
 * Meteor
 * NPM
-* Meteorite
 
 ## How do I install this?
 
