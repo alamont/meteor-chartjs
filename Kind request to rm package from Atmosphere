@@ -1,0 +1,21 @@
+Hi @alamont,
+
+I'm a volunteer Meteor developer helping with the package migration to Atmosphere.
+
+A Twitter user was confused about the many Chart.js wrappers on Atmosphere -
+https://twitter.com/davidjpeacock/status/559547010848526336
+
+I've just created a community-maintained package according to the guidelines at
+https://github.com/raix/Meteor-community-discussions/issues/14
+It includes autoamtted tests, a visual test, a Gulpfile, and Travis.yml.
+
+We'd appreciate if you can help us keep Atmosphere clean by hiding
+[this package](https://atmospherejs.com/alamont/chartjs) from Atmoshpere searches:
+
+    meteor admin set-unmigrated alamont:chartjs
+
+The package will still be installable by apps and other packages that depend on it;
+it will just be hidden from Atmosphere searches.
+    
+Thanks and best regards,
+Dan
